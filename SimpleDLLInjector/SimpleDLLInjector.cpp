@@ -8,8 +8,7 @@ int main()
     const char* targetProc = "yourTargetProcess.exe";
     const char* dllPath = "D:\\PathToYourDllHere\\MyDLL.dll";
 
-    // We need the target process's process identified (PID)
-    // to pass to OpenProcess for the handle to the process
+    // We need the target process PID to pass to OpenProcess
     DWORD targetProcId = GetProcID(targetProc);
     if (targetProcId == NULL)
     {
