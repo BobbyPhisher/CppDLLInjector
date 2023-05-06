@@ -3,9 +3,6 @@
 #include <TlHelp32.h>
 #include "InjectorFuncs.h"
 
-// Set project to multibyte characters
-// Only works in Administrator mode
-// make sure to choose the proper solution platform when building
 int main()
 {
     const char* targetProc = "yourTargetProcess.exe";
